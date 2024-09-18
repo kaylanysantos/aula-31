@@ -26,3 +26,19 @@ const tv = {
 };
 
 tv.mudarAplicativo('Netflix');
+
+    const celular = {
+      marca: "samsung",
+      modelo: "samsung galaxy s23",
+      preco: 4.999,00,
+      cor:"Preto",
+      aplicaticos: ["Youtube", "Netflix", "prime vídeo", "tik tok"],
+      
+      ligar: () => console.log("O celular ligou"),
+      desligar: () => console.log("O celular desligou"),
+      mudarAplicativo: (num) => console.log('mudar para outro aplicativo'),
+      
+      verAplicativos: function() {
+    }
+    
+  
